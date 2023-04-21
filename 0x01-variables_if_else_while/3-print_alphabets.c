@@ -22,4 +22,5 @@ int main(void)
 		ch2++;
 	}
 	putchar('\n');
+	return (0);
 }
