@@ -1,5 +1,11 @@
 #include <stdio.h>
-/***/
+/**
+ * main - entry point
+ *
+ * Description: print all lower case and uppercase alphabet.
+ *
+ * Return: Always 0 (Success)
+*/
 int main(void)
 {
 	char ch1 = 'a';
