@@ -25,9 +25,9 @@ int main(void)
 				    d2 != d3 &&
 				    d2 < d3)
 				{
-					puchar(d1 + 48);
-					puchar(d2 + 48);
-					puchar(d3 + 48);
+					putchar(d1 + 48);
+					putchar(d2 + 48);
+					putchar(d3 + 48);
 
 					if (d1 + d2 + d3 != 24)
 					{
@@ -45,4 +45,3 @@ int main(void)
 
 	return (0);
 }
-
