@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main - entry point
@@ -7,14 +6,16 @@
  *
  * Return: 0 (Success)
 */
-void print_alphabet(void);
 void print_alphabet(void)
 {
 	char ch = 'a';
+
 	while (ch <= 'z')
 	{
-		putchar('
+		_putchar(ch);
+		ch++;
 	}
+	_putchar('\n')
 };
 int main(void)
 {
