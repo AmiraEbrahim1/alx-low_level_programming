@@ -1,10 +1,8 @@
-#include "main.h"
+#include"main.h"
+
 /**
- * main - entry point
- *
- * Description: function prints the alpabet in lowecase.
- *
- * Return: 0 (Success)
+ * print_alphabet - utilizes on the _putchar function
+ * to print alphabet from a to z.
 */
 void print_alphabet(void)
 {
@@ -15,5 +13,5 @@ void print_alphabet(void)
 		_putchar(ch);
 		ch++;
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
