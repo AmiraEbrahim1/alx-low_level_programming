@@ -1,4 +1,3 @@
-#include<stdio.h>
 #include"main.h"
 /**
  * numLength - returns the length of string
@@ -43,19 +42,19 @@ int main(void)
 			initial0s--;
 		}
 
-	printf("%lu", f1);
+		printf("%lu", f1);
 
-	sum = (f1 + f2) % mx;
-	sumo = f1o + f2o + (f1 + f2) / mx;
-	f1 = f2;
-	f1o = f2o;
-	f2 = sum;
-	f2o = sumo;
+		sum = (f1 + f2) % mx;
+		sumo = f1o + f2o + (f1 + f2) / mx;
+		f1 = f2;
+		f1o = f2o;
+		f2 = sum;
+		f2o = sumo;
 
-	if (count != 98)
-		printf(", ");
-	else
-		printf("\n");
+		if (count != 98)
+			printf(", ");
+		else
+			printf("\n");
 	}
 	return (0);
 }
