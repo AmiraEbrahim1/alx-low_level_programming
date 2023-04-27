@@ -1,4 +1,5 @@
 #include"main.h"
+include<stdio.h>;
 /**
  * numLength - returns the length of string
  *
@@ -10,7 +11,7 @@ int numLength(int num)
 {
 	int length = 0;
 
-	if (num)
+	if (!num)
 		return (1);
 	while (num)
 	{
